@@ -1,5 +1,4 @@
 # Elevator Control System and Simulator 
-Group Members: Vahid, Connor, Noah, Ilyes, Patrick
 
 ## Project Structure 
 The project code is broken down into several packages for the different subsystems and components: 
@@ -94,40 +93,3 @@ As shown below is the sample output of the Elevator system. The system is set wi
 ## Modifying Elevator System Output
 
 `floor_input.txt` located within the [Resources folder](Resources/) contains the input requests read by the Floor subsystem (time, floor, floor button, car button, and fault). You should change [this file](Resources/floor_input.txt) if you wish to change the requests.
-
-## Responsibilty Breakdown
-
-### Iteration 5
-- **Connor**: Interfaced existing Elevator system with the GUI, fixed bugs in GUI
-- **Ilyes**: UML Class diagram, refactoring, JUnit test cases
-- **Noah**: Added performance measuring capabilities to the Scheduler, ElevatorPanel.java
-- **Patrick**: Timing diagrams for performance measurements, refactoring project structure
-- **Vahid**: README, ElevatorPanel.java, GUI.java
-
-### Iteration 4
-- **Connor**: Added fault handling code to Scheduler, Elevator, ElevatorState, and updated elevator state machine diagram
-- **Ilyes**: UML Class diagram, refactoring/testing, added additional code for faults
-- **Noah**: Added fault handling code to Scheduler, Elevator, ElevatorState, ElevatorRequest
-- **Patrick**: Timing diagram, sequence diagrams, refactoring, added additional code for faults
-- **Vahid**: README, added Acknowledgements from Scheduler to Elevator and Floor, JUnit test cases
-
-### Iteration 3
-- **Connor**: UDPUtil.java, updated Scheduler, Elevator, and Floor
-- **Ilyes**: UML Class diagram, updated Scheduler and Floor
-- **Noah**: JUnit test cases, updated Scheduler, Elevator, and Floor
-- **Patrick**: Sequence diagram, updated Scheduler, Elevator, and Floor
-- **Vahid**: README, updated ElevatorState, ElevatorEvent, Floor, and Time
-
-### Iteration 2
-- **Connor**: SchedulerReceivingState.java, SchedulerReceivingSendingState.java, sequence diagram
-- **Ilyes**: SchedulerState.java, refactoring, UML class diagram
-- **Noah**: ElevatorState.java, state diagram, README
-- **Patrick**: JUnit tests, refactoring, README
-- **Vahid**: ElevatorState.java, state diagram
-
-### Iteration 1
-- **Connor**: Time.java, ElevatorResponse.java, FloorRequest.java and README.txt.
-- **Ilyes**: JUnit testing, refactoring and UML Class diagram.
-- **Noah**: Elevator.java, ElevatorEvent.java and README.txt
-- **Patrick**: Floor.java, refactoring and FloorRequest.java.
-- **Vahid**: Scheduler.java, Main.java and UML Sequence diagram.
